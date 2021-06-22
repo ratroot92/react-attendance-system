@@ -1,17 +1,20 @@
-# react-attendance-system
+# REACT ATTENDACE SYSTEM
 
 
-
-## Project Images 
+## PROJECT IMAGES  
+```
 cd project_images
+```
 
 ## START REACT CLIENT PORT => 3000 
+```
 cd client/ && npm start
-
+```
 
 ## START EXPRESS SERVER => 5000   
+```
 cd server/ && npm run dev  
-
+```
 
 ## IMPORT MYSQL DB  
 db.sql in root directory 
