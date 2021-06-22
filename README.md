@@ -1,13 +1,29 @@
-## react-attendance-system
+# react-attendance-system
 
-** START REACT CLIENT PORT => 3000 **
-_italics_ cd client/ && npm start
 
-** START EXPRESS SERVER => 5000 **
-_italics_ cd server/ && npm run dev  
 
-# Configure Wen Server Nginx  
-_italics_ 
+## Project Images 
+cd project_images
+
+## START REACT CLIENT PORT => 3000 
+cd client/ && npm start
+
+
+## START EXPRESS SERVER => 5000   
+cd server/ && npm run dev  
+
+
+## IMPORT DB  
+db.sql in root directory 
+
+
+
+
+
+
+## Configure Wen Server Nginx  
+
+
 upstream nodeserver {
         server localhost:5000;
 }
