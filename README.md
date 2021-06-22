@@ -13,7 +13,7 @@ cd client/ && npm start
 cd server/ && npm run dev  
 
 
-## IMPORT DB  
+## IMPORT MYSQL DB  
 db.sql in root directory 
 
 
@@ -21,9 +21,9 @@ db.sql in root directory
 
 
 
-## Configure Wen Server Nginx  
+## Configure Wen Server Nginx  => Resolve CORS
 
-
+```
 upstream nodeserver {
         server localhost:5000;
 }
@@ -84,3 +84,4 @@ location /public {
         }
 
  }
+```
